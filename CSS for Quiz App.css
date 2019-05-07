@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-size: cover;
+  background: url('https://stadiumjourney.com/wp-content/uploads/2017/07/ClevelandIndians.ChrisGreen.2-1-e1501593548919.jpg') fixed;
+  
+}
+
+h1 {
+  -webkit-text-stroke: 2px rgb(0, 1, 2);
+  width: 500px;
+  margin: auto;
+  color: rgba(51, 54, 192, 0.76);
+  border: 4px dashed #ad1717;
+}
+
+main {
+  
+  margin: 0 auto;
+  max-width: 900px;
+  
+}
+.quizStartBox {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+.quizBox {
+  visibility: hidden;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.startButton, .next, .submit, .restart {
+  color: white;
+  background-color: #336e7b;
+  height: 50px;
+  width: 65px;
+  border: 1px dotted white;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+
+
+fieldset {
+	flex-direction: column;
+  display: flex;
+  border: none;
+  
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+.questionCounter {
+  display: inline-block;
+}
+footer ul li {
+    
+    list-style: none;
+    background-color: rgb(224, 238, 250);
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+}
+
+.hidden {
+  visibility: hidden;
+}
